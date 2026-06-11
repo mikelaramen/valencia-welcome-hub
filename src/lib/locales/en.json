@@ -1,0 +1,183 @@
+{
+  "brand": {
+    "name": "SettleInValencia",
+    "tagline": "Relocation reimagined"
+  },
+  "nav": {
+    "howItWorks": "How it works",
+    "services": "Services",
+    "about": "About",
+    "blog": "Blog",
+    "resources": "Resources",
+    "contact": "Contact",
+    "signIn": "Sign in",
+    "getStarted": "Get started"
+  },
+  "cta": {
+    "freePlan": "Get your free relocation plan",
+    "bookCall": "Book a strategy call",
+    "viewAll": "View all",
+    "learnMore": "Learn more",
+    "inquire": "Inquire",
+    "select": "Select plan",
+    "bookNow": "Book now",
+    "subscribe": "Subscribe"
+  },
+  "home": {
+    "eyebrow": "Relocation reimagined",
+    "heroTitle": "A more civilized way to move to Valencia.",
+    "heroSubtitle": "Navigate Spanish bureaucracy, find the right neighborhood, and secure your residency with an AI-driven roadmap backed by local experts.",
+    "trustedBy": "Trusted by 450+ professionals settling in Valencia",
+    "roadmap": {
+      "title": "Your Valencia roadmap",
+      "progress": "65% complete",
+      "step1": "Initial assessment",
+      "step1Meta": "Completed Mar 12",
+      "step2": "Visa & NIE documentation",
+      "step2Meta": "In progress · 3 tasks remaining",
+      "step3": "Apartment search",
+      "step3Meta": "Unlocks after visa approval",
+      "tipLabel": "Expert tip",
+      "tipBody": "Eixample is seeing a 12% rise in demand. Act early."
+    },
+    "how": {
+      "eyebrow": "How it works",
+      "title": "From overwhelm to a plan in five minutes.",
+      "subtitle": "We distill hundreds of hours of bureaucracy into a guided digital journey.",
+      "step1": {
+        "title": "Assessment",
+        "body": "Define your goals, family, work status and budget through our intelligent intake."
+      },
+      "step2": {
+        "title": "AI Roadmap",
+        "body": "Receive a customized, step-by-step checklist of every legal and logistical requirement."
+      },
+      "step3": {
+        "title": "Personal dashboard",
+        "body": "Track progress, store documents, and unlock our local expert network."
+      }
+    },
+    "services": {
+      "eyebrow": "Service tiers",
+      "title": "Flexible support for every stage.",
+      "subtitle": "From a one-off strategy session to full white-glove relocation.",
+      "popular": "Most popular"
+    },
+    "founder": {
+      "eyebrow": "About",
+      "title": "Local expertise, globally polished.",
+      "body": "I moved to Valencia six years ago and lived every step of the relocation process myself. SettleInValencia exists to make sure your first weeks here are spent at the beach, not in queues at the Oficina de Extranjería.",
+      "name": "Elena Martínez",
+      "role": "Founder · Relocation Director"
+    },
+    "blog": {
+      "eyebrow": "Resources",
+      "title": "Inside Valencia.",
+      "subtitle": "Neighborhoods, paperwork, taxes — translated for newcomers."
+    }
+  },
+  "services": {
+    "title": "Choose your level of support",
+    "subtitle": "Three transparent tiers. Upgrade any time as your move evolves.",
+    "perSession": "per session",
+    "from": "from",
+    "strategy": {
+      "name": "Strategy Session",
+      "summary": "A focused 60-minute consultation to validate your relocation plan and unblock the next decision.",
+      "features": [
+        "Personalized visa pathway advice",
+        "Neighborhood and budget breakdown",
+        "Written recap and next-step checklist"
+      ]
+    },
+    "plan": {
+      "name": "Personal Plan",
+      "summary": "Your full AI roadmap, document templates and ongoing platform access for the entire move.",
+      "features": [
+        "Complete AI-generated roadmap",
+        "NIE/TIE and banking appointment support",
+        "Document storage and validation",
+        "Rental contract review"
+      ]
+    },
+    "concierge": {
+      "name": "Concierge",
+      "summary": "A dedicated relocation manager handling appointments, viewings and setup end-to-end.",
+      "features": [
+        "Dedicated relocation manager",
+        "Apartment search and viewings",
+        "Accompaniment to appointments",
+        "School search and enrollment",
+        "Utility and tax registration"
+      ]
+    }
+  },
+  "how": {
+    "title": "How SettleInValencia works",
+    "subtitle": "A guided, three-stage path from your first question to keys in hand.",
+    "details": {
+      "assessment": "A 6-step intake captures your nationality, family situation, work status, arrival timeline and goals. We translate that into the visa pathway and priorities that fit you.",
+      "roadmap": "Our AI generates a Valencia-specific roadmap: tasks grouped by visa, housing, banking, healthcare, tax and lifestyle, with realistic durations and the right order.",
+      "dashboard": "Track every task, mark progress, surface recommendations, and book a human expert when a step needs hands-on help."
+    }
+  },
+  "about": {
+    "title": "Built by someone who's done it.",
+    "subtitle": "SettleInValencia combines local knowledge with technology so your move feels like a beginning, not a battle.",
+    "story": [
+      "I founded SettleInValencia after watching too many friends spend their first months in Spain stuck in paperwork instead of on the beach.",
+      "We pair an AI relocation engine — trained on the specific requirements of Valencia, the Comunidad Valenciana and Spanish national bureaucracy — with a curated network of local lawyers, gestores, real estate partners and tax advisors.",
+      "Our promise is simple: clarity, calm, and the confidence that nothing slips through the cracks."
+    ]
+  },
+  "contact": {
+    "title": "Tell us about your move.",
+    "subtitle": "We'll get back within one business day.",
+    "name": "Full name",
+    "email": "Email address",
+    "message": "How can we help?",
+    "send": "Send message",
+    "success": "Thanks — we'll be in touch shortly.",
+    "error": "Something went wrong. Please try again."
+  },
+  "blog": {
+    "title": "Insights for your move",
+    "subtitle": "Field-tested guides on Valencia neighborhoods, visas, taxes and life.",
+    "readMore": "Read article",
+    "back": "Back to blog"
+  },
+  "resources": {
+    "title": "Free relocation resources",
+    "subtitle": "Guides, checklists and primers — no signup required.",
+    "items": [
+      {
+        "title": "Visa pathways for non-EU residents",
+        "body": "Digital Nomad, Non-Lucrative, Highly Qualified Professional — which one fits you?"
+      },
+      {
+        "title": "Neighborhood guide: Ruzafa, El Carmen, Eixample",
+        "body": "Where to live based on lifestyle, family and remote-work needs."
+      },
+      {
+        "title": "Padrón, NIE & TIE in plain English",
+        "body": "The three documents every new resident needs — and the order to get them."
+      },
+      {
+        "title": "Beckham Law explained",
+        "body": "How qualifying remote workers can save up to 24% on Spanish taxes."
+      }
+    ]
+  },
+  "footer": {
+    "newsletterTitle": "The Valencia Dispatch",
+    "newsletterBody": "Market updates, legal changes and neighborhood guides — monthly.",
+    "platform": "Platform",
+    "company": "Company",
+    "legal": "Legal",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "rights": "All rights reserved.",
+    "madeIn": "Made with care in Ruzafa.",
+    "disclaimer": "SettleInValencia provides relocation guidance and does not offer binding legal or tax advice."
+  }
+}

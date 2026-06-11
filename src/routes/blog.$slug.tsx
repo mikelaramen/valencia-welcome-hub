@@ -83,7 +83,7 @@ function BlogPostPage() {
         />
       </div>
       <div className="mt-12 space-y-6 text-base leading-relaxed text-foreground/80">
-        {post.body[lang].split(/\n\n+/).map((para, i) => (
+        {post.body[lang].split(/\n\n+/).map((para: string, i: number) => (
           <p key={i}>{para}</p>
         ))}
       </div>

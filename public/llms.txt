@@ -1,0 +1,15 @@
+# SettleInValencia
+
+> AI-powered relocation platform for international professionals, remote workers and families moving to Valencia, Spain.
+
+SettleInValencia turns Valencia relocation into a guided plan: a 6-step assessment, an AI-generated roadmap, a personal dashboard, and a curated network of local lawyers, gestores, real-estate partners and tax advisors.
+
+## Pages
+
+- [Home](/): Hero, how it works, services preview and Valencia insights.
+- [How it works](/how-it-works): The three-stage process — assessment, AI roadmap, dashboard.
+- [Services](/services): Strategy Session (99€), Personal Plan (399€–599€), Concierge (1.500€+).
+- [About](/about): The founder and the SettleInValencia approach.
+- [Blog](/blog): Field-tested guides on Valencia neighborhoods, visas and taxes.
+- [Resources](/resources): Free guides on visas, neighborhoods, padrón / NIE / TIE and the Beckham Law.
+- [Contact](/contact): Reach out about your Valencia move.

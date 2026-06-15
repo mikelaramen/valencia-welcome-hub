@@ -207,11 +207,69 @@
   },
   "dashboard": {
     "welcome": "Welcome to your dashboard",
-    "intro": "Your personal Valencia relocation hub. The full assessment, roadmap and recommendations land here next.",
-    "assessmentTitle": "Start your assessment",
-    "assessmentBody": "Answer six quick questions and generate your AI-powered roadmap.",
+    "intro": "Your personal Valencia relocation hub.",
+    "noPlanTitle": "No roadmap yet",
+    "noPlanBody": "Take the 6-step assessment to generate your personalized Valencia plan.",
+    "startAssessment": "Start the assessment",
+    "regenerate": "Regenerate plan",
+    "progressTitle": "Your progress",
     "roadmapTitle": "Your roadmap",
-    "roadmapBody": "A step-by-step plan across visas, housing, banking, healthcare and tax.",
-    "comingSoon": "Coming soon"
+    "recommendationsTitle": "Recommendations",
+    "noRecs": "No recommendations yet.",
+    "toggleStatus": "Toggle status",
+    "disclaimer": "This roadmap is informational guidance, not binding legal or tax advice. Consult a licensed Spanish abogado or gestor for legal matters."
+  },
+  "assessment": {
+    "stepLabel": "Step {{current}} of {{total}}",
+    "back": "Back",
+    "next": "Continue",
+    "generate": "Generate my plan",
+    "signupAndGenerate": "Continue — create account to generate",
+    "generating": "Generating your roadmap…",
+    "nationality": "Nationality",
+    "profession": "Profession",
+    "family": "Family situation",
+    "language": "Spanish level",
+    "visa": "Visa pathway",
+    "arrival": "Target arrival date",
+    "budget": "Monthly budget",
+    "housing": "Housing preference",
+    "neighborhood": "Neighborhood preference (optional)",
+    "notes": "Anything else we should know? (optional)",
+    "notesPlaceholder": "Children's school needs, pets, remote work setup…",
+    "disclaimer": "We generate informational guidance — not binding legal or tax advice. We recommend consulting a licensed Spanish abogado or gestor for legal matters.",
+    "s1": { "title": "About you", "body": "A couple of basics so we can tailor your plan." },
+    "s2": { "title": "Your family & language", "body": "Who's moving with you, and how much Spanish do you speak?" },
+    "s3": { "title": "Visa & timing", "body": "Which pathway and when do you plan to arrive?" },
+    "s4": { "title": "Budget", "body": "What's your comfortable monthly budget once settled?" },
+    "s5": { "title": "Housing", "body": "Where and how would you like to live?" },
+    "s6": { "title": "Final notes", "body": "Anything specific we should factor in?" },
+    "familyOpt": {
+      "single": "Single",
+      "couple": "Couple, no kids",
+      "familyKids": "Family with kids",
+      "familyNoKids": "Family, no kids at home"
+    },
+    "langOpt": {
+      "none": "None",
+      "basic": "Basic",
+      "intermediate": "Intermediate",
+      "fluent": "Fluent"
+    },
+    "visaOpt": {
+      "eu": "EU/EEA/Swiss citizen",
+      "digitalNomad": "Digital Nomad Visa",
+      "nonLucrative": "Non-Lucrative Visa",
+      "hqp": "Highly Qualified Professional",
+      "student": "Student visa",
+      "family": "Family reunification",
+      "unsure": "Not sure — help me choose"
+    },
+    "housingOpt": {
+      "rentApt": "Rent an apartment",
+      "rentHouse": "Rent a house",
+      "buy": "Buy property",
+      "short": "Short-term while we decide"
+    }
   }
 }

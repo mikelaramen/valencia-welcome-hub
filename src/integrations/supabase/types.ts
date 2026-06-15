@@ -14,16 +14,454 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      blog_posts: {
+        Row: {
+          author: string | null
+          content: string | null
+          content_es: string | null
+          cover_image: string | null
+          created_at: string
+          excerpt: string | null
+          excerpt_es: string | null
+          id: string
+          published: boolean
+          published_at: string | null
+          slug: string
+          tags: string[]
+          title: string
+          title_es: string | null
+          updated_at: string
+        }
+        Insert: {
+          author?: string | null
+          content?: string | null
+          content_es?: string | null
+          cover_image?: string | null
+          created_at?: string
+          excerpt?: string | null
+          excerpt_es?: string | null
+          id?: string
+          published?: boolean
+          published_at?: string | null
+          slug: string
+          tags?: string[]
+          title: string
+          title_es?: string | null
+          updated_at?: string
+        }
+        Update: {
+          author?: string | null
+          content?: string | null
+          content_es?: string | null
+          cover_image?: string | null
+          created_at?: string
+          excerpt?: string | null
+          excerpt_es?: string | null
+          id?: string
+          published?: boolean
+          published_at?: string | null
+          slug?: string
+          tags?: string[]
+          title?: string
+          title_es?: string | null
+          updated_at?: string
+        }
+        Relationships: []
+      }
+      consultations: {
+        Row: {
+          created_at: string
+          email: string
+          id: string
+          message: string | null
+          name: string
+          phone: string | null
+          service_id: string | null
+          source: string | null
+          status: string
+          updated_at: string
+          user_id: string | null
+        }
+        Insert: {
+          created_at?: string
+          email: string
+          id?: string
+          message?: string | null
+          name: string
+          phone?: string | null
+          service_id?: string | null
+          source?: string | null
+          status?: string
+          updated_at?: string
+          user_id?: string | null
+        }
+        Update: {
+          created_at?: string
+          email?: string
+          id?: string
+          message?: string | null
+          name?: string
+          phone?: string | null
+          service_id?: string | null
+          source?: string | null
+          status?: string
+          updated_at?: string
+          user_id?: string | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "consultations_service_id_fkey"
+            columns: ["service_id"]
+            isOneToOne: false
+            referencedRelation: "services"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      knowledge_base: {
+        Row: {
+          category: string
+          content: string | null
+          content_es: string | null
+          created_at: string
+          id: string
+          published: boolean
+          slug: string
+          sort_order: number
+          title: string
+          title_es: string | null
+          updated_at: string
+          url: string | null
+        }
+        Insert: {
+          category: string
+          content?: string | null
+          content_es?: string | null
+          created_at?: string
+          id?: string
+          published?: boolean
+          slug: string
+          sort_order?: number
+          title: string
+          title_es?: string | null
+          updated_at?: string
+          url?: string | null
+        }
+        Update: {
+          category?: string
+          content?: string | null
+          content_es?: string | null
+          created_at?: string
+          id?: string
+          published?: boolean
+          slug?: string
+          sort_order?: number
+          title?: string
+          title_es?: string | null
+          updated_at?: string
+          url?: string | null
+        }
+        Relationships: []
+      }
+      partners: {
+        Row: {
+          active: boolean
+          category: string
+          contact_email: string | null
+          contact_phone: string | null
+          created_at: string
+          description: string | null
+          description_es: string | null
+          id: string
+          name: string
+          notes: string | null
+          updated_at: string
+          website: string | null
+        }
+        Insert: {
+          active?: boolean
+          category: string
+          contact_email?: string | null
+          contact_phone?: string | null
+          created_at?: string
+          description?: string | null
+          description_es?: string | null
+          id?: string
+          name: string
+          notes?: string | null
+          updated_at?: string
+          website?: string | null
+        }
+        Update: {
+          active?: boolean
+          category?: string
+          contact_email?: string | null
+          contact_phone?: string | null
+          created_at?: string
+          description?: string | null
+          description_es?: string | null
+          id?: string
+          name?: string
+          notes?: string | null
+          updated_at?: string
+          website?: string | null
+        }
+        Relationships: []
+      }
+      profiles: {
+        Row: {
+          avatar_url: string | null
+          created_at: string
+          email: string | null
+          full_name: string | null
+          id: string
+          language: string
+          nationality: string | null
+          updated_at: string
+        }
+        Insert: {
+          avatar_url?: string | null
+          created_at?: string
+          email?: string | null
+          full_name?: string | null
+          id: string
+          language?: string
+          nationality?: string | null
+          updated_at?: string
+        }
+        Update: {
+          avatar_url?: string | null
+          created_at?: string
+          email?: string | null
+          full_name?: string | null
+          id?: string
+          language?: string
+          nationality?: string | null
+          updated_at?: string
+        }
+        Relationships: []
+      }
+      recommendations: {
+        Row: {
+          category: string
+          created_at: string
+          description: string | null
+          id: string
+          metadata: Json
+          title: string
+          url: string | null
+          user_id: string
+        }
+        Insert: {
+          category: string
+          created_at?: string
+          description?: string | null
+          id?: string
+          metadata?: Json
+          title: string
+          url?: string | null
+          user_id: string
+        }
+        Update: {
+          category?: string
+          created_at?: string
+          description?: string | null
+          id?: string
+          metadata?: Json
+          title?: string
+          url?: string | null
+          user_id?: string
+        }
+        Relationships: []
+      }
+      relocation_profiles: {
+        Row: {
+          arrival_date: string | null
+          budget: string | null
+          created_at: string
+          extras: Json
+          family_situation: string | null
+          generated_plan: Json | null
+          housing_preference: string | null
+          id: string
+          language_level: string | null
+          nationality: string | null
+          neighborhood_preference: string | null
+          profession: string | null
+          updated_at: string
+          user_id: string
+          visa_type: string | null
+        }
+        Insert: {
+          arrival_date?: string | null
+          budget?: string | null
+          created_at?: string
+          extras?: Json
+          family_situation?: string | null
+          generated_plan?: Json | null
+          housing_preference?: string | null
+          id?: string
+          language_level?: string | null
+          nationality?: string | null
+          neighborhood_preference?: string | null
+          profession?: string | null
+          updated_at?: string
+          user_id: string
+          visa_type?: string | null
+        }
+        Update: {
+          arrival_date?: string | null
+          budget?: string | null
+          created_at?: string
+          extras?: Json
+          family_situation?: string | null
+          generated_plan?: Json | null
+          housing_preference?: string | null
+          id?: string
+          language_level?: string | null
+          nationality?: string | null
+          neighborhood_preference?: string | null
+          profession?: string | null
+          updated_at?: string
+          user_id?: string
+          visa_type?: string | null
+        }
+        Relationships: []
+      }
+      roadmap_steps: {
+        Row: {
+          category: string
+          created_at: string
+          description: string | null
+          due_date: string | null
+          id: string
+          relocation_profile_id: string | null
+          sort_order: number
+          status: string
+          title: string
+          updated_at: string
+          user_id: string
+        }
+        Insert: {
+          category: string
+          created_at?: string
+          description?: string | null
+          due_date?: string | null
+          id?: string
+          relocation_profile_id?: string | null
+          sort_order?: number
+          status?: string
+          title: string
+          updated_at?: string
+          user_id: string
+        }
+        Update: {
+          category?: string
+          created_at?: string
+          description?: string | null
+          due_date?: string | null
+          id?: string
+          relocation_profile_id?: string | null
+          sort_order?: number
+          status?: string
+          title?: string
+          updated_at?: string
+          user_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "roadmap_steps_relocation_profile_id_fkey"
+            columns: ["relocation_profile_id"]
+            isOneToOne: false
+            referencedRelation: "relocation_profiles"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      services: {
+        Row: {
+          active: boolean
+          created_at: string
+          description: string | null
+          description_es: string | null
+          features: Json
+          features_es: Json
+          id: string
+          name: string
+          name_es: string | null
+          price_eur: number | null
+          slug: string
+          sort_order: number
+          updated_at: string
+        }
+        Insert: {
+          active?: boolean
+          created_at?: string
+          description?: string | null
+          description_es?: string | null
+          features?: Json
+          features_es?: Json
+          id?: string
+          name: string
+          name_es?: string | null
+          price_eur?: number | null
+          slug: string
+          sort_order?: number
+          updated_at?: string
+        }
+        Update: {
+          active?: boolean
+          created_at?: string
+          description?: string | null
+          description_es?: string | null
+          features?: Json
+          features_es?: Json
+          id?: string
+          name?: string
+          name_es?: string | null
+          price_eur?: number | null
+          slug?: string
+          sort_order?: number
+          updated_at?: string
+        }
+        Relationships: []
+      }
+      user_roles: {
+        Row: {
+          created_at: string
+          id: string
+          role: Database["public"]["Enums"]["app_role"]
+          user_id: string
+        }
+        Insert: {
+          created_at?: string
+          id?: string
+          role: Database["public"]["Enums"]["app_role"]
+          user_id: string
+        }
+        Update: {
+          created_at?: string
+          id?: string
+          role?: Database["public"]["Enums"]["app_role"]
+          user_id?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
     }
     Functions: {
-      [_ in never]: never
+      has_role: {
+        Args: {
+          _role: Database["public"]["Enums"]["app_role"]
+          _user_id: string
+        }
+        Returns: boolean
+      }
     }
     Enums: {
-      [_ in never]: never
+      app_role: "admin" | "user"
     }
     CompositeTypes: {
       [_ in never]: never
@@ -150,6 +588,8 @@ export type CompositeTypes<
 
 export const Constants = {
   public: {
-    Enums: {},
+    Enums: {
+      app_role: ["admin", "user"],
+    },
   },
 } as const

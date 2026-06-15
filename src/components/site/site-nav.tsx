@@ -44,13 +44,13 @@ export function SiteNav() {
         <div className="hidden items-center gap-5 lg:flex">
           <LanguageToggle className="border-r border-border pr-5" />
           <Link
-            to="/contact"
+            to="/auth"
             className="text-sm font-medium text-foreground/60 transition-colors hover:text-foreground"
           >
             {t("nav.signIn")}
           </Link>
           <Link
-            to="/contact"
+            to="/auth"
             className="group inline-flex items-center rounded-full bg-foreground py-2 pl-4 pr-3 text-sm font-medium text-background ring-1 ring-foreground transition-transform active:scale-95"
           >
             {t("nav.getStarted")}
@@ -91,7 +91,7 @@ export function SiteNav() {
             <div className="flex items-center justify-between pt-4 border-t border-border">
               <LanguageToggle />
               <Link
-                to="/contact"
+                to="/auth"
                 onClick={() => setOpen(false)}
                 className="rounded-full bg-foreground px-4 py-2 text-sm font-medium text-background"
               >

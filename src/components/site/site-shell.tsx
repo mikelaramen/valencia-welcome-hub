@@ -15,6 +15,7 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
     path.startsWith("/dashboard") ||
     path.startsWith("/admin") ||
     path.startsWith("/auth") ||
+    path.startsWith("/reset-password") ||
     path.startsWith("/assessment");
 
   if (hideChrome) return <>{children}</>;

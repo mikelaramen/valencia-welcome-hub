@@ -89,8 +89,8 @@ export const generateRoadmap = createServerFn({ method: "POST" })
         language_level: data.language_level,
         housing_preference: data.housing_preference,
         neighborhood_preference: data.neighborhood_preference || null,
-        extras: { notes: data.notes ?? "" },
-        generated_plan: output as unknown as Record<string, unknown>,
+        extras: { notes: data.notes ?? "" } as never,
+        generated_plan: output as never,
       })
       .select("id")
       .single();

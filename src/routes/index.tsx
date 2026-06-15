@@ -64,7 +64,7 @@ function Hero() {
             </p>
             <div className="mt-10 flex flex-wrap items-center gap-4">
               <Link
-                to="/contact"
+                to="/assessment"
                 className="group inline-flex items-center gap-2 rounded-full bg-terracotta px-7 py-3.5 text-base font-medium text-white shadow-lg shadow-terracotta/20 ring-1 ring-terracotta/80 transition-transform active:scale-95"
               >
                 {t("cta.freePlan")}
@@ -313,7 +313,7 @@ function ServicesPreview() {
                   ))}
                 </ul>
                 <Link
-                  to="/contact"
+                  to="/assessment"
                   className={
                     highlighted
                       ? "mt-8 inline-flex w-full items-center justify-center rounded-full bg-foreground py-3 text-sm font-medium text-background"
@@ -459,7 +459,7 @@ function ClosingCta() {
           </h2>
         </div>
         <Link
-          to="/contact"
+          to="/assessment"
           className="group inline-flex items-center gap-2 self-start rounded-full bg-terracotta px-7 py-3.5 text-base font-medium text-white shadow-lg shadow-terracotta/20"
         >
           {t("cta.freePlan")}

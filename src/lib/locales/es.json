@@ -207,11 +207,69 @@
   },
   "dashboard": {
     "welcome": "Bienvenido a tu panel",
-    "intro": "Tu centro personal de relocation en Valencia. La evaluación completa, la hoja de ruta y las recomendaciones llegan aquí próximamente.",
-    "assessmentTitle": "Comienza tu evaluación",
-    "assessmentBody": "Responde seis preguntas rápidas y genera tu hoja de ruta con IA.",
+    "intro": "Tu centro personal de relocation en Valencia.",
+    "noPlanTitle": "Aún no tienes hoja de ruta",
+    "noPlanBody": "Completa la evaluación de 6 pasos para generar tu plan personalizado de Valencia.",
+    "startAssessment": "Comenzar evaluación",
+    "regenerate": "Regenerar plan",
+    "progressTitle": "Tu progreso",
     "roadmapTitle": "Tu hoja de ruta",
-    "roadmapBody": "Un plan paso a paso a través de visados, vivienda, banca, salud e impuestos.",
-    "comingSoon": "Próximamente"
+    "recommendationsTitle": "Recomendaciones",
+    "noRecs": "Aún no hay recomendaciones.",
+    "toggleStatus": "Cambiar estado",
+    "disclaimer": "Esta hoja de ruta es orientación informativa, no asesoramiento legal o fiscal vinculante. Consulta a un abogado o gestor español colegiado para cuestiones legales."
+  },
+  "assessment": {
+    "stepLabel": "Paso {{current}} de {{total}}",
+    "back": "Atrás",
+    "next": "Continuar",
+    "generate": "Generar mi plan",
+    "signupAndGenerate": "Continuar — crea una cuenta para generar",
+    "generating": "Generando tu hoja de ruta…",
+    "nationality": "Nacionalidad",
+    "profession": "Profesión",
+    "family": "Situación familiar",
+    "language": "Nivel de español",
+    "visa": "Vía de visado",
+    "arrival": "Fecha de llegada prevista",
+    "budget": "Presupuesto mensual",
+    "housing": "Preferencia de vivienda",
+    "neighborhood": "Preferencia de barrio (opcional)",
+    "notes": "¿Algo más que debamos saber? (opcional)",
+    "notesPlaceholder": "Necesidades escolares, mascotas, trabajo remoto…",
+    "disclaimer": "Generamos orientación informativa, no asesoramiento legal o fiscal vinculante. Recomendamos consultar a un abogado o gestor español colegiado para cuestiones legales.",
+    "s1": { "title": "Sobre ti", "body": "Algunos datos básicos para personalizar tu plan." },
+    "s2": { "title": "Familia e idioma", "body": "¿Quién se muda contigo y cuánto español hablas?" },
+    "s3": { "title": "Visado y fechas", "body": "¿Qué vía y cuándo planeas llegar?" },
+    "s4": { "title": "Presupuesto", "body": "¿Cuál es tu presupuesto mensual cómodo una vez instalado?" },
+    "s5": { "title": "Vivienda", "body": "¿Dónde y cómo te gustaría vivir?" },
+    "s6": { "title": "Notas finales", "body": "¿Algo específico que debamos tener en cuenta?" },
+    "familyOpt": {
+      "single": "Soltero/a",
+      "couple": "Pareja sin hijos",
+      "familyKids": "Familia con hijos",
+      "familyNoKids": "Familia sin hijos en casa"
+    },
+    "langOpt": {
+      "none": "Ninguno",
+      "basic": "Básico",
+      "intermediate": "Intermedio",
+      "fluent": "Fluido"
+    },
+    "visaOpt": {
+      "eu": "Ciudadano UE/EEE/Suizo",
+      "digitalNomad": "Visado Nómada Digital",
+      "nonLucrative": "Visado No Lucrativo",
+      "hqp": "Profesional Altamente Cualificado",
+      "student": "Visado de estudiante",
+      "family": "Reagrupación familiar",
+      "unsure": "No estoy seguro — ayúdame a elegir"
+    },
+    "housingOpt": {
+      "rentApt": "Alquilar un piso",
+      "rentHouse": "Alquilar una casa",
+      "buy": "Comprar propiedad",
+      "short": "Corto plazo mientras decidimos"
+    }
   }
 }

@@ -179,5 +179,39 @@
     "rights": "All rights reserved.",
     "madeIn": "Made with care in Ruzafa.",
     "disclaimer": "SettleInValencia provides relocation guidance and does not offer binding legal or tax advice."
+  },
+  "auth": {
+    "signInTitle": "Welcome back",
+    "signInSubtitle": "Sign in to access your relocation roadmap.",
+    "signUpTitle": "Create your account",
+    "signUpSubtitle": "Get your personalized Valencia plan in minutes.",
+    "continueGoogle": "Continue with Google",
+    "or": "or",
+    "name": "Full name",
+    "email": "Email",
+    "password": "Password",
+    "newPassword": "New password",
+    "signInButton": "Sign in",
+    "signUpButton": "Create account",
+    "toSignUp": "New here? Create an account",
+    "toSignIn": "Already have an account? Sign in",
+    "forgot": "Forgot password?",
+    "resetTitle": "Set a new password",
+    "resetSubtitle": "Choose a new password to finish signing in.",
+    "resetButton": "Update password",
+    "resetSent": "Check your email for a reset link.",
+    "resetSuccess": "Password updated.",
+    "enterEmail": "Enter your email first.",
+    "checkEmail": "Check your email to confirm your account.",
+    "signOut": "Sign out"
+  },
+  "dashboard": {
+    "welcome": "Welcome to your dashboard",
+    "intro": "Your personal Valencia relocation hub. The full assessment, roadmap and recommendations land here next.",
+    "assessmentTitle": "Start your assessment",
+    "assessmentBody": "Answer six quick questions and generate your AI-powered roadmap.",
+    "roadmapTitle": "Your roadmap",
+    "roadmapBody": "A step-by-step plan across visas, housing, banking, healthcare and tax.",
+    "comingSoon": "Coming soon"
   }
 }

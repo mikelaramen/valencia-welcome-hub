@@ -179,5 +179,39 @@
     "rights": "Todos los derechos reservados.",
     "madeIn": "Hecho con cariño en Ruzafa.",
     "disclaimer": "SettleInValencia ofrece orientación de relocation y no proporciona asesoramiento legal o fiscal vinculante."
+  },
+  "auth": {
+    "signInTitle": "Bienvenido de nuevo",
+    "signInSubtitle": "Inicia sesión para acceder a tu hoja de ruta.",
+    "signUpTitle": "Crea tu cuenta",
+    "signUpSubtitle": "Obtén tu plan personalizado para Valencia en minutos.",
+    "continueGoogle": "Continuar con Google",
+    "or": "o",
+    "name": "Nombre completo",
+    "email": "Email",
+    "password": "Contraseña",
+    "newPassword": "Nueva contraseña",
+    "signInButton": "Iniciar sesión",
+    "signUpButton": "Crear cuenta",
+    "toSignUp": "¿Nuevo aquí? Crea una cuenta",
+    "toSignIn": "¿Ya tienes cuenta? Inicia sesión",
+    "forgot": "¿Olvidaste la contraseña?",
+    "resetTitle": "Establece una nueva contraseña",
+    "resetSubtitle": "Elige una nueva contraseña para terminar de iniciar sesión.",
+    "resetButton": "Actualizar contraseña",
+    "resetSent": "Revisa tu email para el enlace de restablecimiento.",
+    "resetSuccess": "Contraseña actualizada.",
+    "enterEmail": "Introduce tu email primero.",
+    "checkEmail": "Revisa tu email para confirmar tu cuenta.",
+    "signOut": "Cerrar sesión"
+  },
+  "dashboard": {
+    "welcome": "Bienvenido a tu panel",
+    "intro": "Tu centro personal de relocation en Valencia. La evaluación completa, la hoja de ruta y las recomendaciones llegan aquí próximamente.",
+    "assessmentTitle": "Comienza tu evaluación",
+    "assessmentBody": "Responde seis preguntas rápidas y genera tu hoja de ruta con IA.",
+    "roadmapTitle": "Tu hoja de ruta",
+    "roadmapBody": "Un plan paso a paso a través de visados, vivienda, banca, salud e impuestos.",
+    "comingSoon": "Próximamente"
   }
 }

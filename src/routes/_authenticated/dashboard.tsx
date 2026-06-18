@@ -98,10 +98,14 @@ function DashboardPage() {
           </Link>
           <div className="flex items-center gap-4">
             <span className="hidden text-sm text-muted-foreground sm:inline">{email}</span>
+            <Link to="/admin" className="text-sm underline-offset-4 hover:underline">
+              Admin
+            </Link>
             <Button variant="outline" size="sm" onClick={signOut}>
               {t("auth.signOut")}
             </Button>
           </div>
+
         </div>
       </header>
 

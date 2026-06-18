@@ -271,5 +271,80 @@
       "buy": "Buy property",
       "short": "Short-term while we decide"
     }
+  },
+  "admin": {
+    "loading": "Loading…",
+    "badge": "Admin",
+    "viewApp": "View app",
+    "claimTitle": "Claim admin access",
+    "claimBody": "No admin exists yet. Claim ownership of this workspace to access the admin panel.",
+    "claimAction": "Become admin",
+    "deniedTitle": "Access denied",
+    "deniedBody": "You don't have permission to view the admin panel.",
+    "backToDashboard": "Back to dashboard",
+    "new": "New",
+    "edit": "Edit",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "save": "Save",
+    "saving": "Saving…",
+    "on": "On",
+    "off": "Off",
+    "confirmDelete": "Delete this item? This cannot be undone.",
+    "nav": {
+      "overview": "Overview",
+      "consultations": "Leads",
+      "services": "Services",
+      "knowledge": "Knowledge",
+      "partners": "Partners",
+      "blog": "Blog",
+      "users": "Users"
+    },
+    "overview": {
+      "title": "Overview",
+      "subtitle": "What's happening across SettleInValencia.",
+      "leads": "Total leads",
+      "newLeads": "New leads",
+      "users": "Users",
+      "services": "Services",
+      "posts": "Blog posts",
+      "knowledge": "Knowledge items",
+      "partners": "Partners",
+      "recentLeads": "Recent leads",
+      "noLeads": "No leads yet."
+    },
+    "consult": {
+      "title": "Leads & consultations",
+      "subtitle": "Inbound enquiries from the contact form and service bookings.",
+      "empty": "No consultations yet."
+    },
+    "services": {
+      "title": "Services",
+      "subtitle": "Catalogue shown on /services and in the dashboard."
+    },
+    "knowledge": {
+      "title": "Knowledge base",
+      "subtitle": "Resources available to logged-in users."
+    },
+    "partners": {
+      "title": "Partners",
+      "subtitle": "Vetted lawyers, gestores and local providers."
+    },
+    "blog": {
+      "title": "Blog posts",
+      "subtitle": "Public posts at /blog."
+    },
+    "users": {
+      "title": "Users",
+      "subtitle": "All registered profiles.",
+      "name": "Name",
+      "email": "Email",
+      "country": "Nationality",
+      "lang": "Lang",
+      "roles": "Roles",
+      "joined": "Joined",
+      "empty": "No users yet."
+    }
   }
 }
+

@@ -271,5 +271,80 @@
       "buy": "Comprar propiedad",
       "short": "Corto plazo mientras decidimos"
     }
+  },
+  "admin": {
+    "loading": "Cargando…",
+    "badge": "Admin",
+    "viewApp": "Ver app",
+    "claimTitle": "Reclamar acceso de admin",
+    "claimBody": "Aún no hay administrador. Reclama el control de este espacio para acceder al panel.",
+    "claimAction": "Hacerme admin",
+    "deniedTitle": "Acceso denegado",
+    "deniedBody": "No tienes permiso para ver el panel de administración.",
+    "backToDashboard": "Volver al panel",
+    "new": "Nuevo",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "saving": "Guardando…",
+    "on": "Sí",
+    "off": "No",
+    "confirmDelete": "¿Eliminar este elemento? Esta acción no se puede deshacer.",
+    "nav": {
+      "overview": "Resumen",
+      "consultations": "Leads",
+      "services": "Servicios",
+      "knowledge": "Conocimiento",
+      "partners": "Partners",
+      "blog": "Blog",
+      "users": "Usuarios"
+    },
+    "overview": {
+      "title": "Resumen",
+      "subtitle": "Qué está pasando en SettleInValencia.",
+      "leads": "Leads totales",
+      "newLeads": "Leads nuevos",
+      "users": "Usuarios",
+      "services": "Servicios",
+      "posts": "Artículos",
+      "knowledge": "Recursos",
+      "partners": "Partners",
+      "recentLeads": "Leads recientes",
+      "noLeads": "Aún no hay leads."
+    },
+    "consult": {
+      "title": "Leads y consultas",
+      "subtitle": "Solicitudes desde el formulario y reservas de servicios.",
+      "empty": "Aún no hay consultas."
+    },
+    "services": {
+      "title": "Servicios",
+      "subtitle": "Catálogo que se muestra en /services y en el panel."
+    },
+    "knowledge": {
+      "title": "Base de conocimiento",
+      "subtitle": "Recursos para los usuarios registrados."
+    },
+    "partners": {
+      "title": "Partners",
+      "subtitle": "Abogados, gestores y proveedores locales."
+    },
+    "blog": {
+      "title": "Blog",
+      "subtitle": "Artículos públicos en /blog."
+    },
+    "users": {
+      "title": "Usuarios",
+      "subtitle": "Todos los perfiles registrados.",
+      "name": "Nombre",
+      "email": "Email",
+      "country": "Nacionalidad",
+      "lang": "Idioma",
+      "roles": "Roles",
+      "joined": "Alta",
+      "empty": "Aún no hay usuarios."
+    }
   }
 }
+

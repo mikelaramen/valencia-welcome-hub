@@ -72,7 +72,7 @@ function AdminServices() {
     mutationFn: async (values: Partial<ServiceRow>) => {
       const { id, ...rest } = values;
       if (id) {
-        const { error } = await supabase.from("services").update(rest).eq("id", id);
+        const { error } = await supabase.from("services").update(rest as never).eq("id", id);
         if (error) throw error;
       } else {
         const { error } = await supabase.from("services").insert(rest as never);
